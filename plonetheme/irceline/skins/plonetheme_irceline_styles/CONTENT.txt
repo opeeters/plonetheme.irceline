@@ -8,3 +8,8 @@ as well as for package specific stylesheets.
 Note
     Stylesheet files that don't use DTML can also stored in the 'browser'
     folder and accessed as Zope 3 file resources.
+
+Note
+    to activate random background images in the header, create a folder 
+    'randomimages' at the root level of your site where you store all
+    the images as .jpg.

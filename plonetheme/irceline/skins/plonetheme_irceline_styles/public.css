@@ -95,6 +95,9 @@ q {
 /* @group Navigation/search */
 
 #portal-header {
+	background-image:url('randomimg');
+    background-repeat:no-repeat;
+    background-position: right 2px;
     position: relative;
     z-index: 2;
 }
@@ -396,7 +399,7 @@ a.managePortletsFallback {
     line-height: 2em;
 }
 
-#visual-portal-wrapper dl.portletCalendar dd {
+# dl.portletCalendar dd {
     padding: 0;
 }
 
