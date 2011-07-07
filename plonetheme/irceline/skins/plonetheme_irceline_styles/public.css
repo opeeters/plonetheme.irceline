@@ -104,13 +104,11 @@ q {
 
 #portal-logo {
     display: inline-block;
-    margin: 0;
-    padding: 35px 0 0;
-    width: 170px;
-    height: 165px;
+    margin: 35px 31px 35px 13px;
+    padding: 0;
+    width: 144px;
+    height: 95px;
     background-color:transparent;
-    text-align: center;
-    vertical-align:middle;
 }
 
 #portal-globalnav {
