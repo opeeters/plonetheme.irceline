@@ -114,19 +114,35 @@ q {
 }
 
 #portal-globalnav {
+    background: url("globalnav.png") repeat-x scroll left bottom transparent;
+    border-top: 1px solid #DEDEDE;
+    border-right: 1px solid #DEDEDE;
+    border-bottom: 1px solid #A3A3A3;
+    border-left: 1px solid #DEDEDE;    
+    border-radius: 6px 6px 6px 6px;
     clear: both;
-    font-size: 80%;
-    background: #ddd;
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0px;
+    position:relative;
+    left:-0.6em;
+    width: 102%;
+    text-align: center;
     /* ensure top navigation dont touches portlets, content etc.. #10491 */
-    margin: 0 0 1em 0;
+    margin: 0 0 0.5em 0;
 }
 #portal-globalnav li {
 }
 #portal-globalnav li a {
+	background: none;
+	color: #121212;
     display: inline-block;
-    padding: 0.5em 1em 2em 1em;
-    background: #ddd;
-    min-width: 6em;
+    height: 23px;
+    min-width: 2em;
+    margin: 0px;
+    padding: 0.25em 0.6em;
     white-space: normal;
     /*TODO: Once we have removed the whitespace from the nav template, this can be put back*/
     /*border-bottom: 0.1em solid White;*/
@@ -134,13 +150,18 @@ q {
 }
 
 #portal-globalnav .selected a,
+#portal-globalnav .selected a:hover,
 #portal-globalnav a:hover {
-    background: #205c90;
-    color: White;
-}
-#portal-globalnav .selected a:hover {
-    background: #ddd;
-    color: #205c90;
+    background: url("globalnav-hover.png") repeat-x scroll left bottom transparent;
+    color: #00AEDE;
+    display: inline-block;
+    font-weight: 600;
+    font-style: normal;
+    height: 23px;
+    min-width: 2em;
+    margin: 0px;
+    padding:  0.25em 0.6em;
+    white-space: normal;
 }
 
 #portal-personaltools {
