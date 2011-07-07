@@ -66,7 +66,7 @@ h6 {
     font-size: 0.8em;
 }
 h2, h3, h4, h5, h6 {
-    color: #444;
+    color: #121212;
 }
 h2 a, h3 a, h4 a {
     border-bottom: none !important;
@@ -76,7 +76,7 @@ p {
 }
 
 a:link, a:visited {
-    color: #205c90;
+    color: #000088;
 }
 a:focus img {
     outline: thin dotted;
@@ -123,7 +123,7 @@ q {
     clear: both;
     font-family: Arial, sans-serif;
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     padding: 0px;
     position:relative;
@@ -140,7 +140,7 @@ q {
 	color: #121212;
     display: inline-block;
     height: 23px;
-    min-width: 2em;
+    min-width: 50px;
     margin: 0px;
     padding: 0.25em 0.6em;
     white-space: normal;
@@ -153,12 +153,12 @@ q {
 #portal-globalnav .selected a:hover,
 #portal-globalnav a:hover {
     background: url("globalnav-hover.png") repeat-x scroll left bottom transparent;
-    color: #00AEDE;
+    color: #000088;
     display: inline-block;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     height: 23px;
-    min-width: 2em;
+    min-width: 50px;
     margin: 0px;
     padding:  0.25em 0.6em;
     white-space: normal;
@@ -166,7 +166,7 @@ q {
 
 #portal-personaltools {
     float: right;
-    background: #e3e3e3;
+    background: #00AEDE;
     position: relative;
     z-index: 3; /* personaltools should be above #portal-header (with z-index: 2) */
     top: 0;
@@ -184,15 +184,13 @@ q {
     float: left;
     margin-right: 0.5em;
 }
-
 #portal-languageselector {
     float: right;
-    background: #e3e3e3;
+    background: #00AEDE;
     position: relative;
-    top: 0;
-    right: 1px;
+    top: -9px;
     z-index: 3; /* portal-header has 2 and we need to be above to be clickable */
-    padding: 0.25em 0.5em;
+    padding: 0.4em 0.5em 0.25em;
     font-size: 80%;
     border-bottom-right-radius: 0.5em;
     border-bottom-left-radius: 0.5em;
@@ -202,7 +200,23 @@ q {
     -moz-border-radius-bottomright: 0.5em;
     max-width: 50%;
 }
-
+#portal-languageselector a {
+    padding: 0.1em 0.5em 0.25em;
+}
+#portal-languageselector .currentLanguage {
+	font-weight: 700;
+	border-top-width: 2px;
+	border-top-style:solid;
+	border-top-color: #000088;
+	padding: 0.1em 0.5em 0.25em;
+}
+#portal-languageselector a:hover {
+	font-weight: 500;
+	border-top-width: 2px;
+	border-top-style:solid;
+	border-top-color: #000088;
+	padding: 0.1em 0.5em 0.25em;
+}
 #portal-searchbox {
     float: right;
     text-align: left;
@@ -360,8 +374,8 @@ dl.portletError {
 
 dl.portlet dt,
 div.portletAssignments div.portletHeader {
-    padding: 0.42em 1em;
-    background: #ddd;
+    padding: 0.42em 0.7em;
+    background: #D2ECFC;
     line-height: normal;
 }
 dl.portlet dt.hiddenStructure {
@@ -402,7 +416,7 @@ a.managePortletsFallback {
     padding: 0.25em 0.5em;
     font-size: 80%;
     margin: 0 auto 1em;
-    background: #ddd;
+    background: #D2ECFC;
     border-radius: 0.5em;
     -webkit-border-radius: 0.5em;
     -moz-border-radius: 0.5em;
@@ -455,7 +469,7 @@ dl.portletNavigationTree dd.portletItem {
 
 dl.portlet ul.navTreeLevel0 > .navTreeItem {
     padding: 0.25em 1em;
-    border-bottom: 0.1em dotted #ddd;
+    border-bottom: 0.1em dotted #D2ECFC;
     line-height: 2em;
 }
 
@@ -465,8 +479,8 @@ dl.portlet ul.navTreeLevel1 .navTreeItem {
 }
 
 dl.portlet ul.navTree .navTreeCurrentItem {
-    background-color: #ddd;
-    border-left: 1em solid #ddd;
+    background-color: #D2ECFC;
+    border-left: 1em solid #D2ECFC;
     margin-left: -1em;
     margin-right: -1em;
 }
@@ -510,7 +524,7 @@ dl.portlet {
 
 #content a:link,
 dl.portlet a:link {
-    color: #205c90;
+    color: #000088;
     border-bottom: 0.1em solid #ccc;
 }
 
@@ -1671,7 +1685,7 @@ dl.toc dd ol {
 
 #portal-footer {
     font-size: 75%;
-    background: #ddd;
+    background: #D2ECFC;
     padding: 1em;
     margin: 1em 0;
     line-height: 2em;
