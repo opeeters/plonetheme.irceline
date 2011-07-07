@@ -399,8 +399,12 @@ a.managePortletsFallback {
     line-height: 2em;
 }
 
-# dl.portletCalendar dd {
+#visual-portal-wrapper dl.portletCalendar dd {
     padding: 0;
+}
+#visual-portal-wrapper {
+	width: 60em;
+	margin: 0 auto;
 }
 
 #dashboard-portlets1,
@@ -1443,7 +1447,7 @@ fieldset,
     line-height: 125%;
     color: Black;
     letter-spacing: -0.05em;
-    margin: inherit -0.05em;
+    margin: -0.05em;
     font-size: 2em; /* 26px equiv */
     font-weight: bold;
 }
