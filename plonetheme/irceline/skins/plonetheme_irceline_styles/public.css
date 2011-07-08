@@ -185,12 +185,14 @@ q {
     margin-right: 0.5em;
 }
 #portal-languageselector {
-    float: right;
+    float:right;
+    position:absolute;
+    right:0;
+    top:-7px;
     background: #00AEDE;
-    position: relative;
-    top: -9px;
     z-index: 3; /* portal-header has 2 and we need to be above to be clickable */
-    padding: 0.4em 0.5em 0.25em;
+    padding: 0.4em 0.3em 0.25em 0.5em;
+    margin:0;
     font-size: 80%;
     border-bottom-right-radius: 0.5em;
     border-bottom-left-radius: 0.5em;
@@ -198,24 +200,34 @@ q {
     -webkit-border-bottom-left-radius: 0.5em;
     -moz-border-radius-bottomleft: 0.5em;
     -moz-border-radius-bottomright: 0.5em;
-    max-width: 50%;
 }
 #portal-languageselector a {
-    padding: 0.1em 0.5em 0.25em;
-}
-#portal-languageselector .currentLanguage {
-	font-weight: 700;
-	border-top-width: 2px;
-	border-top-style:solid;
-	border-top-color: #000088;
-	padding: 0.1em 0.5em 0.25em;
+    padding: 0.1em 0.3em 0.25em 0.5em;
+    margin:0;
 }
 #portal-languageselector a:hover {
 	font-weight: 500;
 	border-top-width: 2px;
 	border-top-style:solid;
 	border-top-color: #000088;
-	padding: 0.1em 0.5em 0.25em;
+	margin:0;
+	padding: 0.1em 0.3em 0.25em 0.5em;
+}
+#portal-languageselector .currentLanguage {
+	font-weight: 700;
+	border-top-width: 2px;
+	border-top-style:solid;
+	border-top-color: #000088;
+	margin:0;
+	padding: 0.1em 0.3em 0.25em 0.5em;
+}
+#portal-languageselector .currentLanguage a:hover {
+	font-weight: 700;
+	border-top-width: 2px;
+	border-top-style:solid;
+	border-top-color: #000088;
+	margin:0;
+	padding: 0.1em 0.3em 0.25em 0.5em;
 }
 #portal-searchbox {
     float: right;
