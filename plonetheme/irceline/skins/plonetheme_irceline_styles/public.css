@@ -188,7 +188,7 @@ q {
     float:right;
     position:absolute;
     right:0;
-    top:-7px;
+    top:-8px;
     background: #00AEDE;
     z-index: 3; /* portal-header has 2 and we need to be above to be clickable */
     padding: 0.4em 0.3em 0.25em 0.5em;
