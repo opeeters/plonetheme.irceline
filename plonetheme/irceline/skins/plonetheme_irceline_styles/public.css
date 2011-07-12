@@ -125,11 +125,11 @@ q {
     font-size: 1.1em;
     font-weight: 500;
     font-style: normal;
-    padding: 0px;
+    padding: 0 0 0 2em;
     position:relative;
     left:-0.6em;
     width: 102%;
-    text-align: center;
+    text-align: left;
     /* ensure top navigation dont touches portlets, content etc.. #10491 */
     margin: 0 0 0.5em 0;
 }
@@ -230,11 +230,14 @@ q {
 	padding: 0.1em 0.3em 0.25em 0.5em;
 }
 #portal-searchbox {
-    float: right;
+    position:absolute;
+    right: 0.5em;
+    top: 159px;
     text-align: left;
     clear: right;
     margin: 1.2em 0;
     font-size: 80%;
+    z-index: 9;
 }
 
 #portal-searchbox form {
@@ -243,6 +246,10 @@ q {
 
 #portal-searchbox label {
     font-weight: normal;
+}
+
+.searchButton, .searchSection {
+	display: none;
 }
 
 #searchGadget {
@@ -254,6 +261,7 @@ q {
 
 .LSBox .searchSection {
 }
+
 
 #content input.searchField {
     margin-bottom: 1em;
@@ -281,7 +289,8 @@ input.searchField {
 
 #LSResult {
     position: absolute;
-    right: 0;
+    right: 0em;
+    top: 3.6em;
     background: White;
     margin: -1.5em 0 0 -7em;
 }
