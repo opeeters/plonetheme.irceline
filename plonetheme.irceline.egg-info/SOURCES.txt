@@ -2,6 +2,7 @@ MANIFEST.in
 README.txt
 setup.cfg
 setup.py
+plonetheme/.DS_Store
 plonetheme/__init__.py
 plonetheme.irceline.egg-info/PKG-INFO
 plonetheme.irceline.egg-info/SOURCES.txt
@@ -12,6 +13,7 @@ plonetheme.irceline.egg-info/not-zip-safe
 plonetheme.irceline.egg-info/paster_plugins.txt
 plonetheme.irceline.egg-info/requires.txt
 plonetheme.irceline.egg-info/top_level.txt
+plonetheme/irceline/.DS_Store
 plonetheme/irceline/__init__.py
 plonetheme/irceline/configure.zcml
 plonetheme/irceline/profiles.zcml
@@ -35,6 +37,7 @@ plonetheme/irceline/profiles/default/metadata.xml
 plonetheme/irceline/profiles/default/plonetheme.irceline_various.txt
 plonetheme/irceline/profiles/default/skins.xml
 plonetheme/irceline/profiles/default/viewlets.xml
+plonetheme/irceline/skins/.DS_Store
 plonetheme/irceline/skins/plonetheme_irceline_custom_images/CONTENT.txt
 plonetheme/irceline/skins/plonetheme_irceline_custom_images/globalnav-hover.png
 plonetheme/irceline/skins/plonetheme_irceline_custom_images/globalnav.png

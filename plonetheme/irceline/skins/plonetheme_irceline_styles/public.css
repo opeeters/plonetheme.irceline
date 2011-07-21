@@ -33,7 +33,7 @@ body {
     border-top: 7px solid #00AEDE;
     border-bottom: 24px solid #00AEDE;
     font: 100% Arial, FreeSans, sans-serif;
-    background: White;
+    background: #F2F2F2;
     color: Black;
     /* width: 58em; margin: 1em auto; */
 }
@@ -125,9 +125,9 @@ q {
     font-size: 1.1em;
     font-weight: 500;
     font-style: normal;
-    padding: 0 0 0 2em;
+    padding: 0 0 0 1em;
     position:relative;
-    left:-0.6em;
+    left:-1em;
     width: 102%;
     text-align: left;
     /* ensure top navigation dont touches portlets, content etc.. #10491 */
@@ -231,8 +231,8 @@ q {
 }
 #portal-searchbox {
     position:absolute;
-    right: 0.5em;
-    top: 159px;
+    right: 0;
+    top: 190px;
     text-align: left;
     clear: right;
     margin: 1.2em 0;
@@ -461,6 +461,7 @@ a.managePortletsFallback {
 #visual-portal-wrapper {
 	width: 60em;
 	margin: 0 auto;
+	background: white;
 }
 
 #dashboard-portlets1,
