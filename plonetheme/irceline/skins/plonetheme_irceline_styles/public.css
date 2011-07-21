@@ -127,7 +127,7 @@ q {
     font-style: normal;
     padding: 0 0 0 1em;
     position:relative;
-    left:-1em;
+    left:-1.06em;
     width: 102%;
     text-align: left;
     /* ensure top navigation dont touches portlets, content etc.. #10491 */
