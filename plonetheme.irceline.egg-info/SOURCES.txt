@@ -45,6 +45,7 @@ plonetheme/irceline/skins/plonetheme_irceline_custom_images/logo.png
 plonetheme/irceline/skins/plonetheme_irceline_custom_images/search.png
 plonetheme/irceline/skins/plonetheme_irceline_custom_templates/.DS_Store
 plonetheme/irceline/skins/plonetheme_irceline_custom_templates/CONTENT.txt
+plonetheme/irceline/skins/plonetheme_irceline_custom_templates/footer.pt
 plonetheme/irceline/skins/plonetheme_irceline_styles/CONTENT.txt
 plonetheme/irceline/skins/plonetheme_irceline_styles/IEFixes.css
 plonetheme/irceline/skins/plonetheme_irceline_styles/RTL.css
