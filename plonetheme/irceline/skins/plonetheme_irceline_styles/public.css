@@ -99,7 +99,7 @@ q {
 #portal-header {
 	background-image:url('randomimg');
     background-repeat:no-repeat;
-    background-position: right 2px;
+    background-position: right 0px;
     position: relative;
     z-index: 2;
 }
