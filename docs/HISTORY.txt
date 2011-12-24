@@ -5,3 +5,9 @@ Changelog
 -------------------
 
 - Initial release
+
+0.3
+-------------------
+
+- Initial release +
+- en nu anders
