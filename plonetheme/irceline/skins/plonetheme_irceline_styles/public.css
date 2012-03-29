@@ -141,7 +141,7 @@ q {
     display: inline-block;
     height: 110px;
     min-width: 50px;
-    margin: 70px 0 0 0;
+    margin: 80px 0 0 0;
     padding: 0 0.6em 0.25em 0.6em;
     white-space: normal;
     /*TODO: Once we have removed the whitespace from the nav template, this can be put back*/
@@ -149,20 +149,21 @@ q {
     border: 0;
 }
 
-#portal-globalnav .selected a,
-#portal-globalnav .selected a:hover,
-#portal-globalnav a:hover {
-    background: url("globalnav-hover.png") repeat-x scroll transparent;
+#portal-globalnav .selected li a,
+#portal-globalnav .selected li a:hover,
+#portal-globalnav li a:hover {
+    background: url("globalnav.png") repeat-x scroll transparent;
     background-position: 0px 0px;
     height: 110px;
-    color: #000088;
+    color: black;
     /*display: inline-block;*/
+    display: inline-block;
     font-weight: 700;
     font-style: normal;
     text-decoration: underline;
     height: 110px;
     min-width: 50px;
-    margin: 0px 0 0 0;
+    margin: 0 0 0 0;
     padding: 80px 0.6em 0.25em 0.6em;
     white-space: normal;
 }
