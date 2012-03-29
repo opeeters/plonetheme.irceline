@@ -163,7 +163,7 @@ q {
     height: 110px;
     min-width: 50px;
     margin: 0px 0 0 0;
-    padding: 70px 0.6em 0.25em 0.6em;
+    padding: 80px 0.6em 0.25em 0.6em;
     white-space: normal;
 }
 
@@ -335,6 +335,7 @@ input.searchField {
     font-size: 80%;
     margin-bottom: 1em;
     margin-left: 0.25em;
+    margin-top: 0.25em;
 }
 #portal-breadcrumbs a {
     border-bottom: none;
