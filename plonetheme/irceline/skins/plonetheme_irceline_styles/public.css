@@ -159,6 +159,7 @@ q {
     /*display: inline-block;*/
     font-weight: 700;
     font-style: normal;
+    text-decoration: underline;
     height: 110px;
     min-width: 50px;
     margin: 0px 0 0 0;
