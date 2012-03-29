@@ -98,6 +98,7 @@ q {
 
 #portal-header {
 	background-image:url('randomimg');
+	background-color: white;
     background-repeat:no-repeat;
     background-position: 280px 0;
     position: relative;
@@ -466,7 +467,7 @@ a.managePortletsFallback {
 #visual-portal-wrapper {
 	width: 60em;
 	margin: 0 auto;
-	background: white;
+	background-color: white;
 }
 
 #dashboard-portlets1,
