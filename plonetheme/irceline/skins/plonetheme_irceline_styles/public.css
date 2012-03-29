@@ -402,7 +402,7 @@ dl.portletError {
 dl.portlet dt,
 div.portletAssignments div.portletHeader {
     padding: 0.42em 0.7em;
-    background: #D2ECFC;
+    background: #00AEDE;
     line-height: normal;
 }
 dl.portlet dt.hiddenStructure {
@@ -443,7 +443,7 @@ a.managePortletsFallback {
     padding: 0.25em 0.5em;
     font-size: 80%;
     margin: 0 auto 1em;
-    background: #D2ECFC;
+    background: D2ECFC;
     border-radius: 0.5em;
     -webkit-border-radius: 0.5em;
     -moz-border-radius: 0.5em;
@@ -497,7 +497,7 @@ dl.portletNavigationTree dd.portletItem {
 
 dl.portlet ul.navTreeLevel0 > .navTreeItem {
     padding: 0.25em 1em;
-    border-bottom: 0.1em dotted #D2ECFC;
+    border-bottom: 0.1em dotted #00AEDE;
     line-height: 2em;
 }
 
@@ -507,8 +507,8 @@ dl.portlet ul.navTreeLevel1 .navTreeItem {
 }
 
 dl.portlet ul.navTree .navTreeCurrentItem {
-    background-color: #D2ECFC;
-    border-left: 1em solid #D2ECFC;
+    background-color: #00AEDE;
+    border-left: 1em solid #00AEDE;
     margin-left: -1em;
     margin-right: -1em;
 }
@@ -1713,7 +1713,7 @@ dl.toc dd ol {
 
 #portal-footer {
     font-size: 75%;
-    background: #D2ECFC;
+    background: #00AEDE;
     padding: 1em;
     margin: 1em 0;
     line-height: 2em;
