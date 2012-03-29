@@ -12,6 +12,7 @@ div.row {
   width: 100%;
   display: block;
   position: relative;
+  background-color: white;
 }
 div.cell {
   position: relative;
