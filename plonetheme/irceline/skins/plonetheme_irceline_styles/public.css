@@ -142,16 +142,16 @@ q {
     height: 1.5em;
     min-width: 50px;
     margin: 4px 0 0 0;
-    padding: 80px 0.6em 0.25em 0.6em;
+    padding: 76px 0.6em 0.25em 0.6em;
     white-space: normal;
     /*TODO: Once we have removed the whitespace from the nav template, this can be put back*/
     /*border-bottom: 0.1em solid White;*/
     border: 0;
 }
 
-#portal-globalnav .selected li a,
-#portal-globalnav .selected li a:hover,
-#portal-globalnav li a:hover {
+#portal-globalnav .selected a,
+#portal-globalnav .selected a:hover,
+#portal-globalnav a:hover {
     background: url("globalnav.png") repeat-x scroll transparent;
     background-position: 0px 0px;
     color: black;
@@ -163,7 +163,7 @@ q {
     height: 110px;
     min-width: 50px;
     margin: 4px 0 0 0;
-    padding: 80px 0.6em 0.25em 0.6em;
+    padding: 76px 0.6em 0.25em 0.6em;
     white-space: normal;
 }
 
@@ -235,13 +235,14 @@ q {
 #portal-searchbox {
     position:absolute;
     right: 0;
-    top: 120px;
+    top: 125px;
     text-align: left;
     clear: right;
     margin: 0;
     padding: 0;
     font-size: 80%;
     z-index: 9;
+    line-height: 2em;
 }
 
 #portal-searchbox form {
