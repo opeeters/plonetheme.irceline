@@ -97,9 +97,9 @@ q {
 
 #portal-header {
 	background-image:url('randomimg');
-	background-color: white;
+	background-color: transparent;
     background-repeat:no-repeat;
-    background-position: 280px 0;
+    background-position: 280px 1px;
     position: relative;
     z-index: 2;
 }
@@ -107,7 +107,7 @@ q {
 #portal-logo {
     display: inline-block;
     margin: 0;
-    padding: 0;
+    padding: 10px 0 0 0;
     width: 270px;
     height: 110px;
     background-color:transparent;
@@ -118,7 +118,7 @@ q {
 	background: url("globalnav.png") repeat-x scroll transparent;
     background-position: 0px 0px;
     position: absolute;
-    top: 0;
+    top: 10px;
     left: 280px;
     border: none;   
     border-radius: 0px;
@@ -141,8 +141,8 @@ q {
     display: inline-block;
     height: 1.5em;
     min-width: 50px;
-    margin: 75px 0 0 0;
-    padding: 0.25em 0.6em;
+    margin: 4px 0 0 0;
+    padding: 80px 0.6em 0.25em 0.6em;
     white-space: normal;
     /*TODO: Once we have removed the whitespace from the nav template, this can be put back*/
     /*border-bottom: 0.1em solid White;*/
@@ -154,7 +154,6 @@ q {
 #portal-globalnav li a:hover {
     background: url("globalnav.png") repeat-x scroll transparent;
     background-position: 0px 0px;
-    height: 110px;
     color: black;
     /*display: inline-block;*/
     display: inline-block;
@@ -163,7 +162,7 @@ q {
     text-decoration: underline;
     height: 110px;
     min-width: 50px;
-    margin: 0 0 0 0;
+    margin: 4px 0 0 0;
     padding: 80px 0.6em 0.25em 0.6em;
     white-space: normal;
 }
