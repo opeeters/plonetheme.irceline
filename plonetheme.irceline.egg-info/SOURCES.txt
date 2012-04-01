@@ -37,6 +37,7 @@ plonetheme/irceline/profiles/default/plonetheme.irceline_various.txt
 plonetheme/irceline/profiles/default/skins.xml
 plonetheme/irceline/profiles/default/viewlets.xml
 plonetheme/irceline/skins/.DS_Store
+plonetheme/irceline/skins/plonetheme_irceline_custom_images/.DS_Store
 plonetheme/irceline/skins/plonetheme_irceline_custom_images/CONTENT.txt
 plonetheme/irceline/skins/plonetheme_irceline_custom_images/globalnav-hover.png
 plonetheme/irceline/skins/plonetheme_irceline_custom_images/globalnav.png

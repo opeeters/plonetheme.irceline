@@ -337,6 +337,8 @@ input.searchField {
     margin-bottom: 1em;
     margin-left: 0.25em;
     margin-top: 0.25em;
+    position: relative;
+    left: -280px;
 }
 #portal-breadcrumbs a {
     border-bottom: none;
@@ -392,7 +394,7 @@ dl dt span.summary a {
 /* @group Portlets */
 
 dl.portlet {
-    margin: 0 0 1em;
+    margin: 1.8em 0 0;
     font-size: 80%;
 }
 dl.portletError {
