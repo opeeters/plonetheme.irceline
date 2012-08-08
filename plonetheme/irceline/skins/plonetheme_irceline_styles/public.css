@@ -32,7 +32,10 @@ iframe { border-width: 0; border-style:none; }
 body {
     border-top: 7px solid #00AEDE;
     font: 100% Arial, FreeSans, sans-serif;
-    background: #DEFFFF;
+    background: #E1FFFF;
+    background-image: url("bg.png");
+    background-position: 50% 0;
+    background-repeat: repeat-y;
     color: Black;
     /* width: 58em; margin: 1em auto; */
 }
@@ -362,7 +365,7 @@ input.searchField {
     margin-right: 0.5em;
 }
 #portal-siteactions li a:hover {
-    color: #00D300
+    color: #2ED800
 }
 
 /* @end */
@@ -565,7 +568,7 @@ dl.portlet a:visited {
 }
 #content a:hover,
 dl.portlet a:hover {
-    color: #00D300 !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
+    color: #2ED800 !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
 }
 #content a:target {
     background-color: #ffb;
@@ -930,8 +933,8 @@ dl.error dd {
     border: 0.3em solid #ddd;
 }
 #edit-bar {
-    background-color: #00D300;
-    border: 0.25em solid #00D300;
+    background-color: #2ED800;
+    border: 0.25em solid #2ED800;
     font-size: 80%;
     min-height: 2em;
     margin-bottom: 1em;
@@ -939,7 +942,7 @@ dl.error dd {
 }
 #content-views {
     float: left;
-    background-color: #00D300;
+    background-color: #2ED800;
 }
 #content-views a {
     color: White;
@@ -1053,12 +1056,12 @@ dl.error dd {
 
 #contentActionMenus dl.actionMenu a,
 #contentActionMenus dl.actionMenu.activated dd {
-    background-color: #00D300;
+    background-color: #2ED800;
     color: White;
     z-index: 5;
 }
 #contentActionMenus dl.actionMenu.activated dd {
-    border-bottom: 0.5em solid #00D300;
+    border-bottom: 0.5em solid #2ED800;
         right: -3px;
 }
 #contentActionMenus dl.actionMenu.activated dd a:hover,
@@ -1081,7 +1084,7 @@ dl.error dd {
 
 #contentActionMenus {
     float: right;
-    background: #00D300;
+    background: #2ED800;
     margin: 0;
     position: relative;
     top: -0.23em;
@@ -1931,7 +1934,7 @@ div.overlay label {
     margin-bottom: 0.25em;
 }
 div.overlay a:hover {
-    color: #00D300;
+    color: #2ED800;
 }
 div.overlay a.selected {
     color: #000000;
