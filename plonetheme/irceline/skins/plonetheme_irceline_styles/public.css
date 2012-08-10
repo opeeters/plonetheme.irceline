@@ -275,10 +275,9 @@ q {
 }
 
 #searchGadget {
-    width: 10em;
-}
-#searchGadget {
     background: url("search.png") no-repeat scroll right top transparent;
+    font-size: 1em;
+    text-indent: 7px;
     height: 28px;
     width: 228px;
     border: none;
@@ -315,7 +314,6 @@ input.searchField {
     height: 27px !important;
     width: 198px !important;
     padding-right: 30px !important;
-    font-size: 90%;
 }
 
 /* Collapsible elements in search_form */
