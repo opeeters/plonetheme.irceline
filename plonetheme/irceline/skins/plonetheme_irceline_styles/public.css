@@ -365,7 +365,7 @@ input.searchField {
 }
 
 .LSHighlight {
-    background: #ddd;
+    background: #C0C0C0;
 }
 
 /* @end */
@@ -626,7 +626,7 @@ dl.portlet a:hover {
 #category a.link-category, span.selectedTag {
     color: black;
     padding: 0.25em 0.5em;
-    background: #ddd;
+    background: #C0C0C0;
     border-radius: 0.5em;
     -webkit-border-radius: 0.5em;
     -moz-border-radius: 0.5em;
@@ -775,6 +775,8 @@ table.invisible td,
 table.invisible th,
 table.plain td,
 table.plain th,
+table.dark td,
+table.dark th,
 table.listing td,
 table.listing th {
     padding: 0.5em 1em;
@@ -782,7 +784,7 @@ table.listing th {
 }
 table.plain th,
 table.plain td {
-    border: 1px solid #ddd;
+    border: 1px solid #C0C0C0;
 }
 
 table.listing td.listingCheckbox,
@@ -790,22 +792,25 @@ table.listing th.listingCheckbox {
     text-align: center;
 }
 
+table.dark {
+    background-color: #C0C0C0;
+}
 
 table.listing {
-    border-left: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;
 }
 table.listing .top {
-    border-left: 1px solid #ddd;
-    border-top: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+    border-left: 1px solid #C0C0C0;
+    border-top: 1px solid #C0C0C0;
+    border-right: 1px solid #C0C0C0;
 }
 table.listing th {
     text-align: left;
     color: #666;
     border: 0.1em solid #e7e7e7;
     border-style: solid solid none;
-    background: #ddd;
+    background: #C0C0C0;
 }
 table.listing tr.odd th {
     border: 0.1em solid #fff;
@@ -827,7 +832,7 @@ table.listing tbody tr.odd td {
     background: #eee;
 }
 table.listing td {
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #C0C0C0;
 }
 table.listing a {
     border: none;
@@ -837,7 +842,7 @@ table.listing a {
 
 table.listing td.draggable {
     text-shadow: White 1px 1px 1px;
-    background: #ddd !important;
+    background: #C0C0C0 !important;
     border-bottom: 1px solid white;
     padding: 0.4em 0.4em 0 0.5em;
 }
@@ -967,8 +972,8 @@ dl.error dd {
 
 /* Color differences between the two tab types */
 #content ul.formTabs {
-    background-color: #ddd;
-    border: 0.3em solid #ddd;
+    background-color: #C0C0C0;
+    border: 0.3em solid #C0C0C0;
 }
 #edit-bar {
     background-color: #1ade00;
@@ -1476,7 +1481,7 @@ can both be on an image and a wrapper element e.g. a dl tag*/
 img.image-left,
 img.image-right,
 .captioned img {
-    border: 1px solid #ddd;
+    border: 1px solid #C0C0C0;
 }
 dd.image-caption {
     text-align: left;
@@ -1798,7 +1803,7 @@ dl.toc dd ol {
 }
 
 #portal-sitemap > li {
-    border-bottom:0.1em dotted #ddd;
+    border-bottom:0.1em dotted #C0C0C0;
     line-height:1.8em;
     padding:0.25em 1em;
     margin-bottom: 0;
@@ -2024,7 +2029,7 @@ div.overlay .formControls a {
 }
 
 #content-history .historyByLine {
-    background: #ddd;
+    background: #C0C0C0;
     padding: 0.5em;
     border-top-right-radius: 0.5em;
     border-top-left-radius: 0.5em;
@@ -2043,7 +2048,7 @@ div.overlay .formControls a {
 
 #content-history div.historyComment {
     padding: 0.5em 1em;
-    border: 1px solid #ddd;
+    border: 1px solid #C0C0C0;
 }
 
 #content-history div.historyComment p {
