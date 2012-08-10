@@ -11,7 +11,7 @@ fontSmallSize:string=85%
 
 backgroundColor:string=White
 
-linkColor:string=#436976
+linkColor:string=#1600e0
 linkActiveColor:string=Red
 linkVisitedColor:string=Purple
 
@@ -21,7 +21,7 @@ borderStyleAnnotations:string=dashed
 
 globalBorderColor:string=#8cacbb
 globalBackgroundColor:string=#dee7ec
-globalFontColor:string=#436976
+globalFontColor:string=#1600e0
 
 headingFontFamily:string="Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif
 

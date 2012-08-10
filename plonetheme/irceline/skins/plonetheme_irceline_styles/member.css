@@ -9,7 +9,7 @@
 	color: #74AE0B !important;
 }
 .state-published {
-	color: #436976 !important;
+	color: #1600e0 !important;
 }
 .state-pending {
 	color: #FFA500 !important;
@@ -43,8 +43,8 @@
 }
 #plone-contentmenu-workflow .state-published {
 	padding: 0 0.5em;
-	background-color: #436976;
-	border: 0.1em solid #436976;
+	background-color: #1600e0;
+	border: 0.1em solid #1600e0;
 	color: White !important;
 	border-radius: 0.5em;
 	-webkit-border-radius: 0.5em;

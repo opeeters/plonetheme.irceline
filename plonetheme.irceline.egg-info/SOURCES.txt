@@ -36,7 +36,6 @@ plonetheme/irceline/profiles/default/metadata.xml
 plonetheme/irceline/profiles/default/plonetheme.irceline_various.txt
 plonetheme/irceline/profiles/default/skins.xml
 plonetheme/irceline/profiles/default/viewlets.xml
-plonetheme/irceline/skins/.DS_Store
 plonetheme/irceline/skins/plonetheme_irceline_custom_images/.DS_Store
 plonetheme/irceline/skins/plonetheme_irceline_custom_images/CONTENT.txt
 plonetheme/irceline/skins/plonetheme_irceline_custom_images/bg.ai
@@ -47,6 +46,8 @@ plonetheme/irceline/skins/plonetheme_irceline_custom_images/logo.png
 plonetheme/irceline/skins/plonetheme_irceline_custom_images/search.png
 plonetheme/irceline/skins/plonetheme_irceline_custom_templates/.DS_Store
 plonetheme/irceline/skins/plonetheme_irceline_custom_templates/CONTENT.txt
+plonetheme/irceline/skins/plonetheme_irceline_custom_templates/search.pt
+plonetheme/irceline/skins/plonetheme_irceline_custom_templates/plone.searchbox
 plonetheme/irceline/skins/plonetheme_irceline_styles/CONTENT.txt
 plonetheme/irceline/skins/plonetheme_irceline_styles/IEFixes.css
 plonetheme/irceline/skins/plonetheme_irceline_styles/RTL.css
