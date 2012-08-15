@@ -540,8 +540,8 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
     padding: 0.25em;
     margin-left: 1.75em;
     border-bottom: 0.1em dotted #00AEDE;
-    line-height: 2em;
     list-style: circle outside none;
+    line-height: 2em;
 }
 
 dl.portlet ul.navTreeLevel1 .navTreeItem {

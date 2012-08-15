@@ -39,5 +39,8 @@
     <viewlet name="plone.global_sections" />
 -->
   </hidden>
+  <hidden manager="plone.portaltop" skinname="plonetheme.irceline">
+        <viewlet name="plone.personal_bar" />
+  </hidden>
 
 </object>
